@@ -1,0 +1,1029 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>"The Chosen TV Series | See the Videos & The Trailers with the Free Chosen App Today!"</title>
+    <link rel="stylesheet" href="Chosencss.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <link rel="icon" href="https://play-lh.googleusercontent.com/zrlRcV1WjjWWM9TVZS1oxOTCPwlReFC2UhNBNANEDDxFcJh6l59cIz4S66GYoHILzAET">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+   
+    <style>
+        * {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+i{
+font-size: 1.5vw;
+}
+body {
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+background-color:black;
+}
+
+.parent {
+display: flex;
+justify-content: space-between;
+background-color: black;
+color: white;
+width: 100vw;
+height: 14vh;
+}
+
+.logo {
+float: left;
+padding-top: 1.5%;
+padding-left: 2%;
+}
+
+.navbar ul {
+float: right;
+display: flex;
+align-items: center;
+}
+
+.navbar ul li {
+list-style-type: none;
+margin: 20px 100px 0px 0px;
+padding: 11px 0px 19px 0px;
+
+
+
+}
+
+.navbar ul li a {
+text-decoration: none;
+font-size: 129%;
+color: white;
+
+}
+
+.navbar ul li hr {
+margin-top: 5px;
+background-color: transparent; /* Keep space for the hr even when it's invisible */
+height: 4px;
+border: none;
+}
+
+.navbar ul li:hover hr {
+background-color: white; /* Change to white on hover */
+transition: background-color 0.3s ease;
+opacity: 1 !important;
+}
+#hov hr{
+background-color: rgb(1, 184, 175);
+opacity: 1 !important;
+}
+#hov:hover hr{
+background-color: white; /* Change to white on hover */
+transition: background-color 0.3s ease;
+}
+
+.line:after {
+content: "";
+position: absolute;
+
+height: 1px;
+width: 100%;
+bottom: 0;
+background: #dd6e24;
+background: linear-gradient(90deg, rgba(221, 110, 36, 0) 0, rgba(221, 110, 36, .8) 15%, #dd6e24 19%, #dd6e24 20%, #dd6e24 50%, #dd6e24 80%, #dd6e24 81%, rgba(221, 110, 36, .8) 85%, rgba(221, 110, 36, 0));
+bottom: -28%;
+}
+.carousel-indicators{
+display: inline-block;
+left: 78%;
+bottom: 44%;
+}
+.exptitle{
+padding-top: 5%;
+font-size: 400%;
+text-align: center;
+font-family: 'Times New Roman', Times, serif;
+
+}
+#expara{
+
+text-align: center;
+color: white;
+font-size:20px;
+padding-top:-5px;
+padding-left: 25%;
+}
+.btn{
+border: .1em solid white;
+border-radius: 100px;
+background-color: transparent;
+color: white;
+width: 13vw ;
+height: 11vh;
+margin-left: 120px;
+margin-top: 80px;
+font-size: 1rem;
+font-weight: 500;
+cursor: pointer;
+}
+
+.btn1{
+border: .1em solid white;
+border-radius: 100px;
+background-color: transparent;
+color: white;
+width: 13vw ;
+height: 10vh;
+margin-left: 150px;
+margin-top: 30px;
+font-size: 1rem;
+font-weight: 500;
+cursor: pointer;
+}
+.btn2{
+border: .1em solid white;
+border-radius: 100px;
+background-color: transparent;
+color: white;
+width: 13vw ;
+height: 10vh;
+margin-left: 140px;
+margin-top: 30px;
+font-size: 1rem;
+font-weight: 500;
+cursor: pointer;
+}
+#high{
+    font-size: 400%;
+    color:#09b1ac;
+    text-align: center;
+}
+#low{
+    font-size: large;
+    color: white;
+    text-align:center;
+    justify-content:space-between;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+.btn1:hover{
+    background-color: white;
+    color: black;
+}
+.btn2:hover{
+    background-color: white;
+    color: black;
+}
+
+.girlwbg{
+position: relative;
+padding-top:7%
+}
+
+#discover{
+position: absolute;
+font-family: 'Times New Roman', Times, serif;
+font-size: 500%;
+color: white;
+bottom:34%;
+padding-left: 15%;
+}
+
+.overlay{
+display: flex;
+position: absolute;
+justify-content: center;
+top: 45em;
+left:10% ;
+}
+#intro{
+font-size: 280%;
+color:white;
+font-family: 'Times New Roman', Times, serif;
+}
+#intro:hover{
+    color:#09b1ac;
+    transition:color 0.2s;
+}
+#para{
+color: white;
+}
+.btnIn{
+border: .1em solid white;
+border-radius: 100px;
+background-color: transparent;
+color: white;
+width: 12vw ;
+height: 10vh;
+margin-left: 0px;
+margin-top: 30px;
+font-size: 1rem;
+font-weight: 500;
+cursor: pointer;
+}
+.btnIn:hover{
+    background-color: white;
+    color: black;
+}
+.btnNew{
+border: .1em solid white;
+border-radius: 100px;
+background-color: transparent;
+color: white;
+width: 12vw ;
+height: 10vh;
+margin-left: 0px;
+margin-top: 71px;
+font-size: 1rem;
+font-weight: 500;
+cursor: pointer;
+}
+.btnNew:hover{
+    background-color: white;
+    color: black;
+}
+
+#watch{
+font-family: 'Times New Roman', Times, serif;
+color: white;
+font-size: 320%;
+top: 17%;
+left:27.9% ;
+position: absolute;
+
+}
+#fav{
+    position: absolute;
+    color: white;
+    left:30% ;
+    top: 28%;
+    font-size: 220%;
+
+}
+.ott{
+    position: absolute;
+    top: 39%;
+    left:25% ; 
+}
+
+#f{
+    position: absolute;
+    color: white;
+    left: 36%;
+    bottom:44%;
+    font-size: 210%;
+}
+.free{
+    position: absolute;
+    top: 60%;
+    left: 19%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+#gp{
+    padding-right: 30px;
+}
+#ap{
+    padding-right: 20px;
+}
+.dvd{
+    position: absolute;
+    color: white;
+    left: 40%;
+    bottom:17%;
+    font-size: 210%;
+}
+.accordion{
+    margin: 1%;
+    width: 100%;
+}
+#faqp{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+    font-size: 300%;
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+.accordion li{
+   width: 95%;
+   padding:1%;
+}
+.accordion li label{
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    font-size: 1.5em;
+    font-weight: 10;
+    background-color: white;
+    margin: 0.1%;
+    cursor: pointer;
+
+    position: relative;
+}
+label::before{
+    content: "";
+    position: absolute;
+    right: 1%;
+    width: 30px;
+    height: 30px;
+    background-image: url(https://www.thechosen.tv/_next/static/media/plus.78d59cd4.svg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-position-x: 50%;
+    background-position-y: center;
+    transition-duration: 150ms;
+}
+label::after{
+    transition: transform 0.5s;
+    content: "";
+    position: absolute;
+    right: 1%;
+    width: 30px;
+    height: 30px;
+    background-image: url(https://www.thechosen.tv/_next/static/media/less.7ed14d11.svg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-position-x: 50%;
+    background-position-y: center;
+    transition-duration: 150ms;
+}
+input[type="radio"]{
+    display: none;
+  
+}
+.about{
+    background: white;
+    text-align: left;
+    padding: 0 1.5rem;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+}
+.accordion input[type="radio"]:checked +label + .about{
+    padding: 2rem;
+    max-height: 90%;
+    padding: 2rem 1.5rem;
+}
+.accordion input[type="radio"]:checked +label::before{
+    transition: transform 0.5s;
+    content: "";
+    position: absolute;
+    right: 1%;
+    width: 30px;
+    height: 30px;
+    background-image: url(https://www.thechosen.tv/_next/static/media/less.7ed14d11.svg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-position-x: 50%;
+    background-position-y: center;
+    transition-duration: 150ms;
+     
+}
+.footer{
+    box-sizing: border-box;
+    padding: 4rem 15% 1rem;    
+    font-weight: 150;
+    margin-bottom: 6%;
+
+}
+.copy{
+    color: white;
+    text-align: center;
+    font-size: 0.9em;
+    margin-bottom: 4%;    
+}
+#head{
+    font-size: 150%;
+    font-weight: 500;
+    color: #09b1ac;
+}
+
+.footer .col{
+flex-basis: 25%;
+flex-grow: 1;
+margin-bottom: 1.5em;
+}
+.footer .col a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    margin-bottom: 0.7em;
+}
+.btnEn{
+border: .1em solid white;
+border-radius: 100px;
+background-color: transparent;
+color: white;
+width: 13vw ;
+height: 10vh;
+margin-left: 0px;
+margin-bottom: 2rem;
+font-size: 1rem;
+font-weight: 100;
+cursor: pointer;
+}
+.btnEn:hover{
+    background-color: white;
+    color: black;
+}
+#fb{
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+#ig{
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+#tik{
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+#yt{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.footer{
+    display: flex;
+    position: relative;
+}
+
+.horizontal-linetop{
+    width: 1000px;
+    height: 1px;
+    background-color:white;
+    margin-left: 10%;
+    margin-top: 10%;
+    
+}
+.horizontal-linebottom{
+    width: 1000px;
+    height: 1px;
+    background-color:white;
+    margin-left: 10%;
+    margin-top: 36%;
+    position: absolute;
+}
+.vertical-line {
+    width:1px;
+    height: 485px;
+    background-color:white;
+    margin-bottom: 0%;
+    margin-left: 47%;
+    margin-top: 0%;
+    position: absolute;
+}
+.abt{
+margin-right: 5rem;
+
+
+}
+#para1{
+    font-size:1.6rem ;
+    color: white;
+    margin-bottom:0.8rem;
+}
+#para2{
+    font-size:1.7rem ;
+    color: white;
+}
+#para3{
+    font-size:1rem ;
+    color: white;
+}
+.all{
+    margin-left: 8rem;
+}
+.miss{
+    position: relative;
+}
+#chos{
+position: absolute;
+top:7%;
+right:55%;
+color: white;
+font-size: 440%;
+font-family: 'Times New Roman', Times, serif;
+}
+#chdes{
+position: absolute;
+top:40%;
+right:57%;
+font-size: 125%;
+color: white;
+}
+#vb{
+    position: absolute;
+    top: 50% ;
+    left:12%;
+}
+.studio{
+position: relative;
+}
+#st{
+    position: absolute;
+top:7%;
+right:55%;
+color: white;
+font-size: 440%;
+font-family: 'Times New Roman', Times, serif;
+}
+#lan{
+    position: absolute;
+top:36%;
+right:55%;
+font-size: 125%;
+color: white;
+}
+#v{
+    position: absolute;
+    top: 50% ;
+    left:13%;
+}
+.s4{
+position: relative;
+}
+#s1{
+    position: absolute;
+top:7%;
+right:55%;
+color: white;
+font-size: 440%;
+font-family: 'Times New Roman', Times, serif;
+}
+#b{
+    position: absolute;
+    top: 23% ;
+    left:0%;
+}
+#j{
+    position: absolute;
+    top: 23% ;
+    left:15%;
+}
+.jesus{
+position: relative;
+}
+#get{
+    position: absolute;
+top:7%;
+right:55%;
+color: white;
+font-size: 440%;
+font-family: 'Times New Roman', Times, serif;
+}
+#mo{
+    position: absolute;
+top:40%;
+right:57%;
+font-size: 125%;
+color: white;
+}
+#vbj{
+    position: absolute;
+    top: 50% ;
+    left:2%;
+}
+#search{
+    margin-bottom: 1.3em;
+    
+}
+#bw1{
+    filter: grayscale(100%);
+}
+#bw2{
+    filter: grayscale(100%);
+}
+#bw3{
+    filter: grayscale(100%);
+}
+#bw1:hover{
+    filter: grayscale(0%);
+    transition-duration: 500ms;
+}
+#bw2:hover{
+    filter: grayscale(0%);
+    transition-duration: 500ms;
+}
+
+#bw3:hover{
+    filter: grayscale(0%);
+    transition-duration: 500ms;
+}
+
+
+    </style>
+   
+</head>
+<body>
+    <header>
+        <div class="parent">
+        <div class="logo">
+            <img src="https://www.thechosen.tv/_next/image?url=https%3A%2F%2Fthechosen-wordpress-media.s3.amazonaws.com%2Fwp-content%2Fuploads%2F2023%2F08%2F14191901%2Fchosen-brand.png&w=1920&q=75" alt="thechosen" width="150vw">
+        </div>
+            <div class="navbar">
+        <ul>
+            <li id="hov"><a href="">HOME</a><hr size="4"></li>
+            
+            <li><a href="">EXPLORE</a><hr size="4"></li>
+            <li><a href="">WATCH</a><hr size="4"></li>
+            <li><a href="">GIFT </a> <i class="fa-solid fa-chevron-down" style="color: #09b1ac;"></i><hr size="4"></li>
+            <li><a href="">CHOSENCON</a><hr size="4"></li>
+            <li id="search"><a href=""></a><i class="fa-solid fa-magnifying-glass fa-flip-horizontal" ></i></li>
+        </ul>
+            </div>
+        </div>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+    
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="miss">
+                <img src="https://www.thechosen.tv/_next/image?url=https%3A%2F%2Fthechosen-wordpress-media.s3.amazonaws.com%2Fwp-content%2Fuploads%2F2024%2F04%2F30195413%2Fmain-banner-chosencon-desk-20240430-min.jpg&w=1920&q=100" class="d-block w-100" alt="...">
+                <p id="chos">MISSED <br> CHOSENCON?</p>
+                <p id="chdes">Get the ChosenCon Replay and enjoy the 23 full- <br> length sessions with our creators, cast, and crew.</p>
+                <button id="vb" type= "button" class="btnIn "> LEARN MORE </button>
+            </div>
+            </div>
+            <div class="carousel-item">
+                <div class="studio"> 
+                <img src="https://www.thechosen.tv/_next/image?url=https%3A%2F%2Fthechosen-wordpress-media.s3.amazonaws.com%2Fwp-content%2Fuploads%2F2024%2F09%2F20223425%2F1895x940.jpg&w=1920&q=100" class="d-block w-100" alt="...">
+                <p id="st">5&2 STUDIOS <br>LAUNCHES</p>
+                <P id="lan">Ain’t no lyin’—our loaves and fish are multiplyin’. <br> Check out our slate of new projects...</P>
+                <button id="v" type= "button" class="btnIn "> LEARN MORE </button>
+            </div>
+            </div>
+            <div class="carousel-item">
+                <div  class="s4"> 
+                <img src="https://www.thechosen.tv/_next/image?url=https%3A%2F%2Fthechosen-wordpress-media.s3.amazonaws.com%2Fwp-content%2Fuploads%2F2023%2F12%2F14203842%2FCHSN-S4-Desktop-Banners-scaled.jpg&w=1920&q=100" class="d-block w-100" alt="...">
+                <p id="s1">SEASON FOUR</p>
+                <button id="b" type= "button" class="btn2 "> WATCH </button>
+                <button id="j" type= "button" class="btn2 "> ORDER SEASON 4 </button> 
+            </div>
+            </div>
+            <div class="carousel-item">
+                <div class="jesus">
+                <img src="https://www.thechosen.tv/_next/image?url=https%3A%2F%2Fthechosen-wordpress-media.s3.amazonaws.com%2Fwp-content%2Fuploads%2F2023%2F12%2F14203455%2FBanner-Desktop-Jesus-scaled.jpg&w=1920&q=100" class="d-block w-100" alt="...">
+                <p id="get">GET USED TO <br>DIFFERENT</p>
+                <P id="mo">Discover the groundbreaking drama about the <br> most revolutionary person in history</P>
+                <button id="vbj" type= "button" class="btn2 "> WATCH NOW </button>
+            </div>
+            </div>
+        </div>
+       
+    
+    </div>
+    <div class="line"></div>
+    </header>
+    <div class="exbody">
+        <div class="exptitle">
+            <span style="color:white">EXPERIENCE</span> <span style="color: #09b1ac;">THE CHOSEN
+                         </span>
+        
+                        </div>
+                        <span id="expara">
+                            “I was skeptical at first…so I watched the whole show…I love it.” - Allison D</span>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+            <div class="eximg" style="display:flex ;">
+                <div class="eximg1"><img id="bw1" src="https://www.thechosen.tv/_next/image?url=https%3A%2F%2Fthechosen-wordpress-media.s3.amazonaws.com%2Fwp-content%2Fuploads%2F2023%2F10%2F14191759%2Fexplore-min.jpg&w=640&q=75" alt="" width="460px";
+                    height: 50px;
+                   >
+                <p id="high">EXPLORE</p>
+                <p id="low">Get the latest news on the oldest of stories.</p>
+                <button type= "button" class="btn "> LEARN MORE </button>
+            </div>
+                <div class="eximg2"><img id="bw2" src="https://www.thechosen.tv/_next/image?url=https%3A%2F%2Fthechosen-wordpress-media.s3.amazonaws.com%2Fwp-content%2Fuploads%2F2023%2F10%2F14191757%2Fwatch-min-1.jpg&w=640&q=75" alt="" width="460px" >
+                <p id="high">WATCH</p>
+            <p id="low">Every "The Chosen" episode. For free. Watch <br> here, in our apps, and on streaming services <br> you already enjoy.</p>
+            <button type= "button" class="btn2 "> WATCH NOW </button>
+            </div>
+                <div class="eximg3"><img id="bw3" src="https://www.thechosen.tv/_next/image?url=https%3A%2F%2Fthechosen-wordpress-media.s3.amazonaws.com%2Fwp-content%2Fuploads%2F2023%2F10%2F14191757%2Fgift-min.jpg&w=640&q=75" alt="" width="460px">
+                <p id="high">GIFT</p>
+                <p id="low">Find meaningful items designed to start <br> conversations and take you deeper into the <br> The Chosen story.</p>
+                <button type= "button" class="btn1 "> GET IT NOW!  </button>
+            </div>
+            </div>
+    </div>
+
+    <div class="nextcon2">
+        <div class="girlwbg">
+            <img src="https://www.thechosen.tv/_next/image?url=https%3A%2F%2Fthechosen-wordpress-media.s3.amazonaws.com%2Fwp-content%2Fuploads%2F2023%2F10%2F14191800%2Fimg-Discover-whats-new-min.png&w=1920&q=75" alt="" width="100%">
+            <div id="discover">
+            <span>DISCOVER</span>
+            <br>
+            <span>WHAT’S NEW</span>
+            <p style="font-size: 30%;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Check out our most recent articles below or see them all.</p>
+            </div>
+            <div class="overlay">
+                <div class="disimg1"><img src="https://www.thechosen.tv/_next/image?url=https%3A%2F%2Fthechosen-wordpress-media.s3.amazonaws.com%2Fwp-content%2Fuploads%2F2024%2F10%2F09163320%2FScreenshot-2024-10-09-at-11.33.00%25E2%2580%25AFAM.png&w=1920&q=75" alt="" width="580vw" style="padding-right: 5%;">
+               <p id="intro">Introducing The Chosen Adventures Kit</p>
+
+               <p id="para">A treasure you don’t even have to sell a goat for. Meet our first- <br> ever The Chosen Adventures Kit, an all-in-one activity kit with fun <br> for the whole family.</p>
+               <button type= "button" class="btnIn "> READ MORE </button>
+                </div>
+        
+                <div class="disimg2"><img src="https://www.thechosen.tv/_next/image?url=https%3A%2F%2Fthechosen-wordpress-media.s3.amazonaws.com%2Fwp-content%2Fuploads%2F2024%2F08%2F27195146%2Fimage.png&w=3840&q=75" alt="" width="580vw" style="padding-right: 5%;" >
+                    <p id="intro">Missed ChosenCon?</p>
+
+                    <p id="para">Get the ChosenCon Replay and enjoy the 23 full-length sessions <br> with our creators, cast, and crew.</p>
+                    <button type= "button" class="btnNew "> LEAR MORE </button>
+                </div>
+        </div>
+       
+    </div>
+    <br><br><br><br>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class="whereto" style="position:relative; background-color: #262626;">
+    
+    <div class="content">
+     <img src="https://www.thechosen.tv/_next/static/media/bg2.e76b5a9c.png" alt="" style="padding-left: 72%;padding-top:27%;">
+
+      <img src="https://www.thechosen.tv/_next/static/media/bg1.f11ac9e1.png" alt="" width="15%" style="position:absolute; top:0% ; margin-left: rem;">
+      <p id="watch">Where to watch The Chosen?</p>
+       <p id="fav"> On your favorite streaming services</p>
+       <div class="ott">
+       <img src="https://www.thechosen.tv/_next/image?url=https%3A%2F%2Fthechosen-wordpress-media.s3.amazonaws.com%2Fwp-content%2Fuploads%2F2023%2F09%2F14191829%2Fprime-video.png&w=640&q=75" alt="" width="160vw">
+      <img src="https://www.thechosen.tv/_next/image?url=https%3A%2F%2Fthechosen-wordpress-media.s3.amazonaws.com%2Fwp-content%2Fuploads%2F2024%2F05%2F03174501%2Fhulu-brand.png&w=640&q=75" alt="" width="160vw">
+      <img src="https://www.thechosen.tv/_next/image?url=https%3A%2F%2Fthechosen-wordpress-media.s3.amazonaws.com%2Fwp-content%2Fuploads%2F2023%2F09%2F14191809%2Fpeacock-1.png&w=640&q=75" alt="" width="160vw">
+      <img src="https://www.thechosen.tv/_next/image?url=https%3A%2F%2Fthechosen-wordpress-media.s3.amazonaws.com%2Fwp-content%2Fuploads%2F2023%2F09%2F14191828%2Fnetflix.png&w=640&q=75" alt="" width="160vw">
+      </div><br>
+     
+      <p id="f">Free in the Chosen app </p>
+      <div class="free">
+      <img id="gp"  src="https://www.thechosen.tv/_next/image?url=https%3A%2F%2Fthechosen-wordpress-media.s3.amazonaws.com%2Fwp-content%2Fuploads%2F2023%2F10%2F14191808%2Fgoogle-play-store-3.png&w=640&q=75" alt="" width="175vw">
+     <img id="ap" src="https://www.thechosen.tv/_next/image?url=https%3A%2F%2Fthechosen-wordpress-media.s3.amazonaws.com%2Fwp-content%2Fuploads%2F2023%2F08%2F14191902%2Fapp-store-1.png&w=640&q=75" alt="" width="165vw">
+    <img src="https://www.thechosen.tv/_next/image?url=https%3A%2F%2Fthechosen-wordpress-media.s3.amazonaws.com%2Fwp-content%2Fuploads%2F2023%2F09%2F14191828%2Ffire-tv.png&w=640&q=75" alt="" width="160vw">
+    <img src="https://www.thechosen.tv/_next/image?url=https%3A%2F%2Fthechosen-wordpress-media.s3.amazonaws.com%2Fwp-content%2Fuploads%2F2023%2F09%2F14191828%2Froku.png&w=640&q=75" alt="" width="160vw">
+    <img src="https://www.thechosen.tv/_next/image?url=https%3A%2F%2Fthechosen-wordpress-media.s3.amazonaws.com%2Fwp-content%2Fuploads%2F2024%2F03%2F11144754%2Fappletv.png&w=640&q=75" alt="" width="160vw">
+    </div>
+    <div class="dvd">
+    <p id="blu">On DVD or Blu-Ray</p>
+    <img src="https://www.thechosen.tv/_next/image?url=https%3A%2F%2Fthechosen-wordpress-media.s3.amazonaws.com%2Fwp-content%2Fuploads%2F2023%2F09%2F14191809%2Fdvd.png&w=640&q=75" alt="" width="160vw" >
+    <img src="https://www.thechosen.tv/_next/image?url=https%3A%2F%2Fthechosen-wordpress-media.s3.amazonaws.com%2Fwp-content%2Fuploads%2F2023%2F09%2F14191809%2Fblueray.png&w=640&q=75" alt="" width="160vw">
+</div>    
+</div>
+    </div>
+
+<div class="faq">
+ <p id="faqp">THE CHOSEN FREQUENTLY ASKED QUESTIONS</p>
+  <ul class="accordion" style="list-style-type: none;">
+    <li>
+        <input type="radio" name="accordion" id="first">
+        <label for="first">What is The Chosen Show About?</label>
+        <div class="about">
+            <p>The Chosen is a groundbreaking historical drama based on the life of Jesus Christ (Jonathan Roumie), seen through the eyes of those who knew him. Set against the backdrop of Roman oppression in first-century Israel, the seven-season show shares an authentic and intimate look at Jesus’ revolutionary life and teachings.</p>
+        </div>
+    </li>
+    <li>
+        <input type="radio" name="accordion" id="Second">
+        <label for="Second">Who is the Creator of The Chosen?</label>
+        <div class="about">
+            <p>Dallas Jenkins is the creator, director, co-writer, and star of The Chosen (yes, the star part is a joke).
+
+                Dallas made his first independent feature film, Hometown Legend, at the age of 25. In the 20+ years since, he’s directed and produced more than a dozen feature and short films for Universal, Lionsgate, Pureflix, Hallmark, and Amazon.</p>
+        </div>
+    </li>
+    <li>
+        <input type="radio" name="accordion" id="th">
+        <label for="th">Is The Chosen Biblically Accurate?</label>
+        <div class="about">
+            <p>As we’ve said from our very first episode, The Chosen is based on the true stories of the Gospels of Jesus Christ. Some locations and timelines have been combined or condensed. Backstories and some characters or dialog have been added.
+
+                However, all the bible and historical context and any artistic imagination are designed to support the truth and intention of the Scriptures. Viewers are encouraged to read the scripture and the Gospels.</p>
+        </div>
+    </li>
+    <li>
+        <input type="radio" name="accordion" id="four">
+        <label for="four">If I Download The App, Is there Extra Content Available Apart from All The Chosen Episodes?</label>
+        <div class="about">
+            <p>Yes, cartloads. Along with the full seasons, you’ll find lots of special features completely for free in The Chosen app:</p>
+                <ul>
+                <li>Making-of documentaries</li>
+                <li>Bible Roundtables, lively discussions between a Messianic Jewish rabbi, Catholic priest, and Evangelical professor about the scripture, history, and culture portrayed in the show</li>
+                <li>The Chosen Aftershow, talks where our cast, writers, and director break down the episodes and give you lots of inside information</li>
+                <li>And more</li>
+            </ul>
+            <p>We’re also very active on social media, and post lots of original content there. Follow us on:</p>
+            <ul>
+                <li>My Space… kidding</li>
+                <li>YouTube: https://www.youtube.com/@TheChosenSeries</li>
+                <li>Facebook: https://www.facebook.com/InsideTheChosen</li>
+                <li>Instagram:https://www.instagram.com/thechosentvseries/</li>
+                <li>Twitter: https://twitter.com/thechosentv</li>
+                <li>TikTok: https://www.tiktok.com/@thechosentv</li>
+            </ul>
+            
+        </div>
+    </li>
+    <li>
+        <input type="radio" name="accordion" id="five">
+        <label for="five">What is The Chosen Show About?</label>
+        <div class="about">
+            <p>The Chosen is a groundbreaking historical drama based on the life of Jesus Christ (Jonathan Roumie), seen through the eyes of those who knew him. Set against the backdrop of Roman oppression in first-century Israel, the seven-season show shares an authentic and intimate look at Jesus’ revolutionary life and teachings.</p>
+        </div>
+    </li>
+    <li>
+        <input type="radio" name="accordion" id="six">
+        <label for="six">Where Can I Watch Episodes and teasers of the Chosen?</label>
+        <div class="about">
+            <p>There are many ways to watch.
+
+                First, you can view all episodes for free in The Chosen app—available for Roku, Apple TV, Amazon Fire TV, iOS, and Android. Just search “The Chosen” wherever you download apps or channels for your streaming player or device.
+                
+                Second, check your favorite streaming service. There’s a good chance we’re on there. One or more seasons are currently available on Amazon Prime, Hulu, Netflix, Peacock, and more.
+                
+                Third, you can watch on our website, https://watch.thechosen.tv/</p>
+        </div>
+    </li>
+    <li>
+        <input type="radio" name="accordion" id="seven">
+        <label for="seven">Where Can I Purchase The Chosen Gifts?</label>
+        <div class="about">
+            <p>The address of our online gift store is VERY hard to remember:  www.TheChosenGifts.com 
+
+                There you’ll find our full line of clothes, Blu-rays, CDs, books, and more—all designed to start conversations with others and take you deeper into the Gospels.</p>
+        </div>
+    </li>
+    <li>
+        <input type="radio" name="accordion" id="eight">
+        <label for="eight">How Can I Support the Chosen Show Viewership and Its Message?</label>
+        <div class="about">
+            <p>Lots of ways. By streaming the show yourself, sharing it with others, and purchasing gifts, you’re helping to get the word out and support The Chosen.
+
+                The best way to contribute financially to the production, distribution, and translation of The Chosen is through the nonprofit Come and See Foundation. Learn more here.</p>
+        </div>
+    </li>
+    <li>
+        <input type="radio" name="accordion" id="nine">
+        <label for="nine">Where Can I Find Information About The Chosen Cast and Crew?</label>
+        <div class="about">
+            <p>You can find out more about The Chosen cast and crew here on our site, or visit IMDB at https://www.imdb.com/title/tt9471404/</p>
+        </div>
+    </li>
+  </ul>
+</div>
+<br><br>
+<div class="horizontal-linetop"></div>
+<div class="vertical-line"></div>
+<div class="horizontal-linebottom"></div>
+
+
+<div class="footer">
+    
+    
+    <div class="abt">
+    <p id="para1">Change Language</p>
+    <button type= "button" class="btnEn "> ENGLISH (US) <i class="fa-solid fa-chevron-down"></i> </button> <br>
+    <span id="para2">About The Chosen</span>
+    <p id="para3">The Chosen is a groundbreaking historical drama <br>  based on the life of Jesus, seen through the eyes of <br> those who knew him.</p>
+    <img id="fb" src="https://www.thechosen.tv/_next/image?url=https%3A%2F%2Fthechosen-wordpress-media.s3.amazonaws.com%2Fwp-content%2Fuploads%2F2023%2F08%2F14191901%2Ffacebook-logo.png&w=640&q=75" alt=""  width="40vw">
+    <img id="ig" src="https://www.thechosen.tv/_next/image?url=https%3A%2F%2Fthechosen-wordpress-media.s3.amazonaws.com%2Fwp-content%2Fuploads%2F2023%2F08%2F14191901%2Finstagram-logo.png&w=640&q=75" alt=""  width="40vw">
+    <img id="tik" src="https://www.thechosen.tv/_next/image?url=https%3A%2F%2Fthechosen-wordpress-media.s3.amazonaws.com%2Fwp-content%2Fuploads%2F2023%2F08%2F14191901%2Ftiktok-logo.png&w=640&q=75" alt=""  width="40vw">
+    <img id="yt" src="https://www.thechosen.tv/_next/image?url=https%3A%2F%2Fthechosen-wordpress-media.s3.amazonaws.com%2Fwp-content%2Fuploads%2F2023%2F08%2F14191901%2Fyoutube-logo.png&w=640&q=75" alt="" width="40vw">
+    </div> 
+    <div class="all">
+        <div class="row">
+            <div class="col">
+                <p id="head">Explore</p>
+                <a href="#">Explore All Content</a>
+                <a href="#">Watch</a>
+                <a href="#">Gift</a>
+                <a href="#">Donate</a>
+                <a href="#">Get The Chosen App</a>
+                <a href="#">Press Center</a>
+                <a href="#">Investor Relations</a>
+            </div>
+            <div class="col">
+                <p id="head">Help</p>
+                <a href="#">FAQs</a>
+                <a href="#">Contact Us</a>
+                <a href="#"> Job Openings</a>
+                <a href="#">Internships</a>
+            </div>
+            <div class="col">
+                <p id="head">Policies</p>
+                <a href="#">Return Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Cookies Settings</a>
+            </div>
+           
+        </div>
+        
+    </div>
+</div>  
+<div class="copy">
+    <p>Come and See is a 501(c)(3) and all donations are tax deductible. © 2024 Come and See Foundation, Inc. All rights reserved.</p>
+    </div>  
+</body>
+</html> 
+        <!-- THIS THE Carousel WITHOUT BOOTSTAP -->
+        <!-- <div class="container">
+            <div class="wrapper">
+                <div class="wrapper-holder">
+                    <div id="slider-img1"></div>
+                    <div id="slider-img2"></div>
+                    <div id="slider-img3"></div>
+                    <div id="slider-img4"></div>
+
+                </div>
+            </div>
+        </div>
+    <div class="button-holder">
+        <a href="#slider-img1" class="button"></a>
+        <a href="#slider-img2" class="button"></a>
+        <a href="#slider-img3" class="button"></a>
+        <a href="#slider-img4" class="button"></a>
+    </div>     -->
+    
+ <!-- THIS THE Carousel WITHOUT BOOTSTAP --> 
+<!-- 
+ .container{
+position: relative;
+}
+.container .wrapper{
+width: 99vw;
+height: 140vh;
+box-shadow: 10px 10px 10px 10px;
+margin: 0%;
+overflow: hidden;
+}
+.container .wrapper-holder{
+display: grid;
+grid-template-columns: repeat(4,100%);
+height: 100%;
+width: 100%; 
+animation: slider 30s ease-in-out infinite  alternate;
+}
+.container #slider-img1{
+background-image: url(https://www.thechosen.tv/_next/image?url=https%3A%2F%2Fthechosen-wordpress-media.s3.amazonaws.com%2Fwp-content%2Fuploads%2F2024%2F04%2F30195413%2Fmain-banner-chosencon-desk-20240430-min.jpg&w=1920&q=100);
+background-position: center;
+/* width: 0%;
+/* height: 50%; 
+/* 
+
+.container #slider-img2{
+background-image: url(https://www.thechosen.tv/_next/image?url=https%3A%2F%2Fthechosen-wordpress-media.s3.amazonaws.com%2Fwp-content%2Fuploads%2F2024%2F09%2F20223425%2F1895x940.jpg&w=1920&q=100);
+background-position: center;
+}
+.container #slider-img3{
+background-image: url(https://www.thechosen.tv/_next/image?url=https%3A%2F%2Fthechosen-wordpress-media.s3.amazonaws.com%2Fwp-content%2Fuploads%2F2023%2F12%2F14203842%2FCHSN-S4-Desktop-Banners-scaled.jpg&w=1920&q=100);
+background-position: center;
+}
+.container #slider-img4{
+background-image: url(https://www.thechosen.tv/_next/image?url=https%3A%2F%2Fthechosen-wordpress-media.s3.amazonaws.com%2Fwp-content%2Fuploads%2F2023%2F12%2F14203455%2FBanner-Desktop-Jesus-scaled.jpg&w=1920&q=100);
+background-position: center;
+}
+.container .button-holder .button{
+background-color: white;
+width: 15vw;
+height: 15vh;
+border-radius: 15px;
+display: inline-block;
+margin: .3rem;
+z-index: 2;
+}
+.container .button-holder
+{ 
+position: absolute;
+left:50%;
+z-index: 6;
+bottom: 0%;
+
+}
+.button:hover{
+box-shadow: 0px 0px 7px 4px;
+}
+@keyframes slider{
+0%{transform: translateX(0%);}
+10%{transform: translateX(-100%);}
+20%{transform: translateX(-100%);}
+30%{transform: translateX(-200%);}
+40%{transform: translateX(-200%);}
+50%{transform: translateX(-200%);}
+60%{transform: translateX(-300%);}
+70%{transform: translateX(-300%);}
+80%{transform: translateX(-300%);}
+90%{transform: translateX(0%);}
+100%{transform: translateX(0%);} -->
